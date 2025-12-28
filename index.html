@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danny 的个人主页</title>
+  </head>
+
+  <body>
+    <!-- 1) 个人信息区 -->
+    <h1>你好，我是 clementine 👋</h1>
+    <p>我正在从 0 开始学习前端，目标是做出一个可上线的个人网站。</p>
+
+    <img
+      src="https://picsum.photos/200"
+      alt="我的头像（占位图）"
+      width="200"
+    />
+
+    <hr />
+
+    <!-- 2) 关于我 -->
+    <h2>关于我</h2>
+    <p>
+      我有 C/C++ 和数据结构算法基础，现在要把能力扩展到前端：把“想法”做成真正能展示的网页。
+    </p>
+
+    <hr />
+
+    <!-- 3) 项目展示 -->
+    <h2>项目 / 作品</h2>
+    <ul>
+      <li>项目 1：个人网站（制作中）</li>
+      <li>项目 2：待添加</li>
+      <li>项目 3：待添加</li>
+    </ul>
+
+    <hr />
+
+    <!-- 4) 联系方式 -->
+    <h2>联系我</h2>
+    <p>
+      邮箱：
+      <a href="mailto:zhouk139@gmail.com">zhouk139@gmail.com</a>
+    </p>
+    <p>
+      GitHub：
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        点击访问
+      </a>
+    </p>
+    <script>
+  const toggleBtn = document.querySelector("#toggleBtn");
+  const moreInfo = document.querySelector("#moreInfo");
+
+  toggleBtn.addEventListener("click", function () {
+    if (moreInfo.style.display === "none") {
+      moreInfo.style.display = "block";
+      toggleBtn.textContent = "收起";
+    } else {
+      moreInfo.style.display = "none";
+      toggleBtn.textContent = "展开更多";
+    }
+  });
+</script>
+
+  </body>
+</html>

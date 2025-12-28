@@ -1,0 +1,50 @@
+/* ===== 全局基础样式 ===== */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blue;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== 页面主容器 ===== */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 8px;
+}
+
+/* ===== 标题 ===== */
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 32px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+}
+
+/* ===== 头像 ===== */
+.avatar {
+  display: block;
+  margin: 24px auto;
+  border-radius: 50%;
+}
+
+/* ===== 列表 ===== */
+ul {
+  padding-left: 20px;
+}
+
+/* ===== 链接 ===== */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
